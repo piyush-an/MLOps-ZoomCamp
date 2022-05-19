@@ -57,7 +57,7 @@ On GCP console, enter the copied public key
 
 ![Project Creation](/images/06.png)
 
-## Step 6: SSH into Instance
+## Step 5: SSH into Instance
 
 Replace your instance public IP address
 
@@ -84,7 +84,7 @@ Further Use
 ssh gcp-mlops_demo
 ```
 
-## Step 7: Install the dependency
+## Step 6: Install the dependency
 
 * Anaconda
 
