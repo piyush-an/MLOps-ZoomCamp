@@ -39,9 +39,11 @@ Configuration:
 
 ![Project Creation](/images/05.png)
 
-## Step 4: Enable SSH 
+## Step 4: Enable SSH
 
-Generate a SSH key
+Generate a SSH key<br>
+Below for Mac OS Terminal / Linux OS, <br>
+Windows users please update commands as per need.
 
 ```bash
 ssh-keygen -t rsa -f ~/.ssh/mlops-demo -C mlops_zoomcamp
