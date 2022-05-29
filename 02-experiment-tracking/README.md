@@ -59,3 +59,11 @@ Launch mlflow dashboard and enable port forwarding in VS code `5000`
 ```bash
 mlflow ui --backend-store-uri sqlite:///mlflow.db
 ```
+
+# Screenshots
+mlflow auto logging features for frameworks
+![Autologging](/images/autologging_param.png)
+
+best model promoted to registry.
+![ModelRegistry](/images/model_registered.png)
+
