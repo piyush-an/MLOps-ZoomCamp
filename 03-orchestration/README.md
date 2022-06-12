@@ -7,7 +7,7 @@ Prefect is a workflow management system, designed for modern infrastructure and 
 
 ![Dasboard](/images/p_dashboard.png)
 
-## Overview of the enhacements
+## Overview of the enhancements
 
 ### 01. Decorate function with flow and task
 
@@ -73,6 +73,4 @@ DeploymentSpec(
 ![Scheduled Runs](/images/p_deploy.png)
 Scheduled runs
 
-![Work queue](/images/p_wq.png)
-Work queue
 # Ends
