@@ -104,8 +104,8 @@ def export_parquet(year, month, df, y_pred):
     df['ride_id'] = f'{year}/{month}_' + df.index.astype('str')
     df['predictions'] = y_pred
     df_result = df[['ride_id','predictions']].copy()
-    # file_name = f"/app/predicted_{year}-{month}_{ts}.parquet"
-    file_name = f"/home/mlops_zoomcamp/Notebooks/week04/web_app/predicted_{year}-{month}_{ts}.parquet"
+    file_name = f"/app/predicted_{year}-{month}_{ts}.parquet"
+    # file_name = f"/home/mlops_zoomcamp/Notebooks/week04/web_app/predicted_{year}-{month}_{ts}.parquet"
     df_result.to_parquet(file_name,
         engine='pyarrow',
         compression=None,
