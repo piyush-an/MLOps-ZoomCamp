@@ -6,7 +6,7 @@ from google.cloud import storage
 from fastapi import FastAPI, HTTPException, Response, status, Query, Request
 from fastapi.responses import HTMLResponse
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/app/key.json"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/key/key.json"
 
 with open('model.bin', 'rb') as f_in:
     dv, lr = pickle.load(f_in)
